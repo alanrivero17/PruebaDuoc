@@ -1,0 +1,447 @@
+#mycontainer {    
+    width: 960px;
+}
+
+@media (max-width: 480px) {
+    #mycontainer {    
+           width: 400px;
+    }
+}
+/*------------------------------------------------------------------------------------------------------------- */  
+/*------------------------------------------------------------------------------------------------------------- */  
+@media (min-width: 600px) {
+	
+div#centrado
+{
+	margin-left:40%;
+    margin-right: 0%;
+	
+}
+	
+	
+header
+{
+	
+	background: #73FFBF;
+	float:left;
+	width:100%;
+	height:10%;	
+}
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+
+nav
+{
+	background: #73FFBF;
+	width:30%;
+	height:12%;
+	text-decoration:none;
+	
+}
+hr#linea{
+	color: #0056b2; 
+	float:left;
+	
+	
+}
+hr#linea2
+{
+	color: #0056b2; 
+	float:right;
+	
+}
+
+
+    p#number{
+        font-size:100p;
+    }
+a{
+text-decoration:none;
+}
+div#info{
+	
+	float:left;
+	width:1%;
+}
+
+
+
+div#first{
+	background-color:#50D989;	
+	width:100%;
+	height:638px;
+}
+
+div#second{
+	
+	background-color:white;	
+	width:100%;
+	height:647px;
+}
+
+
+footer{
+	background-color:#D8D8D8;
+	width:100%;
+	height:80px;
+}
+h5{
+	color:black;
+	padding: 0px 20px;
+}
+
+div#iz{
+	
+	background-color:white;
+	width:48%;
+	height:647px;
+	float:left;
+	
+}
+
+img#crowfu{
+	float:left;
+	width:350px;
+	height:250px;
+	
+}
+img#rescat{
+	float:right;
+	
+}
+
+p#res{
+	
+    color:black;
+	float:right;
+	padding:0px 10px;
+	font-size:20px;
+}
+
+p#etapa{
+	color:gray;
+	float:right;
+    font-size:15px;
+}
+hr{
+	background-color:gray;
+	width:1px;
+	padding: 5px 45px;
+}
+
+h5#rescate{
+	color:black;
+	font-size:17px;
+}
+
+div#der{
+	
+	background-color:white;
+	width:48%;
+	height:647px;
+	float:right;
+}
+
+p#crow{
+	
+	color:black;
+	float:left;
+	padding:10px 0px;
+	font-size:20px;
+}
+
+p#financia{
+	color:gray;
+	float:left;
+	font-size:15px;
+	padding: 0px 0px;
+}
+div#bajoimg{
+	padding:290px 0px;
+}
+
+p#fina{
+	color:black;
+	font-size: 17px;
+	float:right;
+}
+
+
+
+.botoncito {
+text-decoration:none;
+font-weight: 600;
+font-size: 15px;
+color:black;
+padding-top:8px;
+padding-bottom:8px;
+padding-left:10px;
+padding-right:10px;
+background-color:white;
+border-color: black;
+border-width: 3px;
+border-style: solid;
+
+margin: 0px 0px 0px 100px;
+float:left;
+}
+
+div#galeria
+{
+	background-color:#50D989;	
+	width:100%;
+	height:607px;
+}
+
+img#perro5{
+	height:180px;
+	width:250px;
+}
+img#perro6{
+	height:180px;
+	width:250px;
+}
+img#perro7{
+	height:180px;
+	width:250px;
+}
+img#perro8{
+	height:180px;
+	width:250px;
+}
+
+table#tabla1{
+float:right;
+width:1%;
+}
+
+
+}
+/*------------------------------------------------------------------------------------------------------------- */   
+@media (max-width: 480px) {
+div#centrado
+{
+	margin-left:40%;
+    margin-right: -17%;
+	
+}
+header
+{
+	
+	background: #73FFBF;
+	float:left;
+	width:100%;
+	height:10%;	
+}
+
+nav
+{
+	background: #73FFBF;
+	width:30%;
+	height:12%;
+	text-decoration:none;
+}
+
+
+    p#number{
+        font-size:100p;
+    }
+a{
+text-decoration:none;
+}
+div#info{
+	
+	float:left;
+	width:1%;
+}
+
+
+
+div#first{
+	background-color:#50D989;	
+	width:100%;
+	height:847px;
+}
+
+div#second{
+	
+	background-color:white;	
+	width:100%;
+	height:607px;
+}
+
+
+footer{
+	background-color:#D8D8D8;
+	width:100%;
+	height:80px;
+}
+h5{
+	color:black;
+	padding: 0px 20px;
+}
+
+div#iz{
+	
+	width:100%;
+	height:480px;
+	
+}
+
+img#crowfu{
+	float:left;
+	width:350px;
+	height:250px;
+}
+
+p#res{
+	
+    color:black;
+	float:right;
+	padding:-5px 10px;
+	font-size:18px;
+}
+
+p#etapa{
+	color:gray;
+	float:right;
+    font-size:15px;
+	padding: -10px 0px;
+}
+hr{
+	background-color:gray;
+	width:1px;
+	padding: 5px 45px;
+	
+}
+hr#linea{
+	background-color:gray;
+	width:1px;
+	padding: 5px 45px;
+	float:right;
+}
+
+hr#linea2{
+	background-color:gray;
+	width:1px;
+	padding: 5px 45px;
+	float:right;
+}
+
+
+h5#rescate{
+	color:black;
+	font-size:15px;
+}
+
+div#der{
+	
+	background-color:white;
+	width:100%;
+	height:647px;
+	float:left;
+}
+
+p#crow{
+	
+	color:black;
+	float:Right;
+	padding:0px 15px;
+	font-size:18px;
+}
+
+p#financia
+{
+color:gray;
+float:right;
+font-size:15px;	
+}
+div#bajoimg{
+	padding:290px 0px;
+}
+
+p#fina{
+	color:black;
+	font-size: 15px;
+	float:right;
+}
+
+
+
+.botoncito {
+text-decoration:none;
+font-weight: 600;
+font-size: 15px;
+color:black;
+padding-top:0px;
+padding-bottom:8px;
+padding-left:10px;
+padding-right:10px;
+background-color:white;
+border-color: black;
+border-width: 3px;
+border-style: solid;
+
+}
+
+div#galeria
+{
+	background-color:#50D989;	
+	width:100%;
+	height:847px;
+}
+
+img#perro5{
+	height:80px;
+	width:100px;
+}
+img#perro6{
+	height:80px;
+	width:100px;
+}
+img#perro7{
+	height:80px;
+	width:100px;
+}
+img#perro8{
+	height:80px;
+	width:100px;
+}
+
+}
+/*------------------------------------------------------------------------------------------------------------- */  
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.content-registro
+{
+	background:#50D989;
+	margin:auto;
+	width:400px;
+	height:768px;
+}
+p#combo
+{
+	color:gray;
+}
+p#combo1
+{
+	color:gray;
+}
+
+p#combo2
+{
+	color:gray;
+}
+ 

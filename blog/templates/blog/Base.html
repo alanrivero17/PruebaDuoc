@@ -1,0 +1,147 @@
+  <!DOCTYPE html>
+  {% load static  %}
+  <html lang=es>
+    <head>
+	<title> base </title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <link rel="stylesheet" href="{% static 'css/Estilo.css' %}">
+	  
+    </head>
+
+	
+    <body >
+	<div id=first>
+	 <div class="content-logo">		
+		<header>
+			<img src="img/logo.png" alt=logo>
+			<div id=centrado>
+				<nav>	
+						<a href="impresoras.html" target="contenido">Inicio</a>
+				
+						<a href="Registro.html" target="contenido">Registro</a>
+						
+						<a href="notebooks.html" target="contenido">Servicio</a>
+						
+						<a href="mouses.html" target="contenido">Contactanos</a>
+					
+				</nav>
+			</div>
+			
+			 
+		</header>		
+	 </div>
+
+
+
+		
+
+		<div class="carousel">
+
+					<a class="carousel-item" href="#one!"  ><img src='{% static "img/1.jpg" %}'alt=one></a>
+					<a class="carousel-item" href="#two!" ><img src= '{% static "img/2.jpg" %}'   alt=two ></a>
+					<a class="carousel-item" href="#three!" ><img src='{% static "img/3.jpg" %}' alt=tree></a>
+					<a class="carousel-item" href="#four!" ><img src='{% static "img/4.jpg" %}' alt=four></a>
+						
+        </div>		
+		<div id="apDiv1">
+			<table id=tabla1>
+			<tr>
+			<td><a href="https://www.facebook.com/Mis-Perris-231483944378539/?modal=admin_todo_tour"> <img src="img/fb.png" alt=fe></a></td>
+			
+			<td><a href="https://plus.google.com/+Gmail"><img src="img/gmail.png" alt=plus></a></td>
+			
+			<td><a href="https://www.instagram.com/mis_perris_prueba/"><img src="img/instagram.png" alt=insta></a></td>
+			
+			<td><a href="https://www.google.com/gmail/"><img src="img/msg.png" alt=gmp></a></td>
+			</tr>
+		</table>
+        </div>
+	</div>
+	<br>
+	<div id=second>
+	
+		<div id=iz>
+		<p id=res> RESCATE </p>
+		<br><br><br>
+		<p id=etapa > ETAPA UNO </p>
+		<br><br>
+		
+		<br>
+		<hr id=linea2 style="color: #0056b2;" />
+		<br>
+		<p id=rescate> Rescatamos perros en situación de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles un hogar.</p>
+		<img id=rescat src="img/rescate.jpg"  alt=resct >
+		</div>
+	
+		
+
+		<div id=der >
+			<img id=crowfu src="img/crowfunding.jpg" alt=Crow> 
+			<div id=bajoimg>
+			<p id=crow>CROWDFUNDING</p>
+			<br><br><br>
+			
+			<p id=financia> FINANCIAMIENTO </p>
+			<br><br><br>
+		    <hr id=linea style="color: #0056b2"/> 
+			</div>	
+				
+			  <p class=margen style="margin:-70%"></p>
+			  
+			
+			 <p id=fina > Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener financiamiento para seguir ayudando. </p>
+			<a href="" class="botoncito">CAMPAÑAS</a>
+			
+		</div>
+	</div>
+	
+	
+	<div id=galeria>
+			
+			<table>
+			<tr>
+			<td><a href="Atacamita.html"><img id=perro5 src="img/5.jpg" alt=ata></a></td>
+			
+			<td><a href="Okon.html"><img id=perro6 src="img/6.jpg" alt=oko></a></td>
+			</tr>
+			</table>
+			
+			<br>
+			
+			<table>
+			<tr>
+			
+			<td><a href="Marlene.html"><img id=perro7 src="img/7.jpg" alt=marle></a></td>
+			
+			<td><a href="Afortunado.html"><img id=perro8 src="img/8.jpg" alt=afor></a></td>
+			</tr>
+			</table>
+	</div>
+        
+	<footer>
+	<h5> Desarrollo Web y Mobile </h5>
+	</footer>
+        
+      <!--JavaScript at end of body for optimized loading-->
+        
+        <script  src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+		<script  src="{% static 'js/materialize.min.js' %}"></script>
+		<script>$(document).ready(function(){
+				$('.carousel').carousel(
+				{
+					duration:500,
+					dist:50,
+					shift:50,
+					padding:100,
+					fullwidth:true
+				}
+				);
+		});</script>
+    </body>
+  </html>
